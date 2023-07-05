@@ -15,8 +15,9 @@ body {
 }
 
 
-
-
+/* .point {
+    display: none;
+} */
 
 /* Button common */
 .btn {
@@ -295,14 +296,14 @@ border-radius: 20px;
 
 
 .ext{
-    width: 342px;
-height: 200px;
-flex-shrink: 0;
+    width: 26%;
+height: 20%;
+
 color: #FFF;
 text-align: center;
 font-size: 55px;
 font-family: Work Sans;
-font-style: normal;
+
 font-weight: 700;
 line-height: 70px; 
 display: flex;
@@ -311,11 +312,30 @@ align-items: center;
 flex-direction: column;
 box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.265);
 
-transform: translate(570px, -130px);
+transform: translate(140%, -40%);
+
 }
 
 .ext>h3{
     font-size: 30px;
+}
+
+.bt {
+    position: relative;
+    transform: translate(-4vw, -10vh);
+    
+    border: 0px;
+    border-radius: 8px;
+    padding: 3rem 2.5rem;
+    width: 30%;
+    color: #FFF;
+    font-size: 2rem;
+    font-family: Work Sans;
+    /* font-style: normal; */
+    /* font-weight: 600; */
+    /* line-height: normal; */
+    background: #FF900E;
+    /* cursor: pointer; */
 }
 
 
@@ -471,7 +491,28 @@ left: 25%
 
 /* Responsive */
 
-@media only screen and (max-width: 768px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+    body{
+        overflow-x: hidden;
+    }
 
 /* Button common */
 .btn {
@@ -489,6 +530,9 @@ left: 25%
 
 }
 
+
+
+
 /* Utilities End */
 
 /* Header section Start */
@@ -503,16 +547,13 @@ left: 25%
     margin: auto;
 }
 
-.navbar {
- visibility: ;
- 
 
-}
 
 .navbar>.logo {
-    position: absolute;
+    position: relative;
     top: 0%;
-    left: 35%;
+    left: 18%;
+    
     font-size: 2rem;
     font-family: Work Sans;
     font-style: normal;
@@ -551,7 +592,7 @@ left: 25%
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-top: 10rem;
+    margin-top: 20px;
     margin-bottom: 15px;
 
 }
@@ -632,24 +673,23 @@ border: none;
 }
 .s{
     display: flex;
+    flex-direction: column;
     gap: 10px;
 }
 
 .s>.s1{
-    color: #727272;
+    color: #000000;
 font-size: 45px;
 font-family: Work Sans;
 font-style: normal;
-font-weight: 500;
-line-height: normal;
+
+
 }
 .s2{
-    font-weight: bold;
-    color: black;
-    font-size: 45px;
+    color: #000000;
+font-size: 45px;
 font-family: Work Sans;
 font-style: normal;
-line-height: normal;
 }
 
 /* Feature end */
@@ -754,27 +794,31 @@ border-radius: 20px;
 
 
 .ext{
-    width: 342px;
-height: 200px;
-flex-shrink: 0;
-color: #FFF;
-text-align: center;
-font-size: 55px;
-font-family: Work Sans;
-font-style: normal;
-font-weight: 700;
-line-height: 70px; 
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.265);
-
-transform: translate(570px, -130px);
+   display: none;
 }
 
 .ext>h3{
     font-size: 30px;
+
+
+}
+
+.bt {
+    position: relative;
+    transform: translate(-3vw, -5vh);
+    
+    border: 0px;
+    border-radius: 8px;
+    padding: 20px 25px;
+    width: 25%;
+    color: #FFF;
+    font-size: 15px;
+    font-family: Work Sans;
+    /* font-style: normal; */
+    /* font-weight: 600; */
+    /* line-height: normal; */
+    background: #FF900E;
+    /* cursor: pointer; */
 }
 
 
@@ -786,7 +830,7 @@ love & enjoy End  */
 
 .facts{
     max-width: 85%;
-    margin: auto;
+    margin: 100px auto -70px auto;
 }
 
 .h1-fact{
